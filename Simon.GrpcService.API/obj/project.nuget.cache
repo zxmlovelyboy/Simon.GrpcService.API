@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "dgSpecHash": "dXfJLZLnHAda0evxAruAu1hSZw+JHc93/QQSdlYyxrOiZQbO6NTQI+dxs4n6lYrExCnjkTDGPaKZqIM5tVC/uQ==",
+  "success": true,
+  "projectFilePath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.API\\Simon.GrpcService.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xmzh03\\.nuget\\packages\\google.protobuf\\3.11.2\\google.protobuf.3.11.2.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\grpc.aspnetcore\\2.27.0\\grpc.aspnetcore.2.27.0.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\grpc.aspnetcore.server\\2.27.0\\grpc.aspnetcore.server.2.27.0.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.27.0\\grpc.aspnetcore.server.clientfactory.2.27.0.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\grpc.core.api\\2.27.0\\grpc.core.api.2.27.0.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\grpc.net.client\\2.27.0\\grpc.net.client.2.27.0.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\grpc.net.clientfactory\\2.27.0\\grpc.net.clientfactory.2.27.0.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\grpc.net.common\\2.27.0\\grpc.net.common.2.27.0.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\grpc.tools\\2.27.0\\grpc.tools.2.27.0.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\json\\1.0.1\\json.1.0.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.1\\microsoft.extensions.configuration.2.1.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.1\\microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.1\\microsoft.extensions.configuration.binder.2.1.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.1\\microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.extensions.http\\2.1.1\\microsoft.extensions.http.2.1.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.extensions.logging\\2.1.1\\microsoft.extensions.logging.2.1.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.1\\microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.extensions.options\\2.1.1\\microsoft.extensions.options.2.1.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.1\\microsoft.extensions.primitives.2.1.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\swashbuckle.aspnetcore\\5.5.1\\swashbuckle.aspnetcore.5.5.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.1\\swashbuckle.aspnetcore.swagger.5.5.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.5.1\\swashbuckle.aspnetcore.swaggergen.5.5.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.1\\swashbuckle.aspnetcore.swaggerui.5.5.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\xmzh03\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“JSON 1.0.1”。此包可能与项目不完全兼容。",
+      "libraryId": "JSON",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

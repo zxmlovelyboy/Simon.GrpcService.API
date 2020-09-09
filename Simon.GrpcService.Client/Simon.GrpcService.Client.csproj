@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\Simon.GrpcService.GrpcService\Simon.GrpcService.GrpcService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Grpc.Core.Api">
+      <HintPath>C:\Users\xmzh03\.nuget\packages\grpc.core.api\2.27.0\lib\netstandard2.0\Grpc.Core.Api.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

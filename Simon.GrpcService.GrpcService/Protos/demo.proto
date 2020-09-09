@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+ 
+option csharp_namespace = "Simon.GrpcService.GrpcService";
+ 
+package greet;
+ 
+service Demo{
+	rpc DemoMethod (RequestParam) returns (ResponseModel);
+}
+ 
+message RequestParam{
+	int32 Id = 1;
+}
+message ResponseModel{
+	int32 Id = 1;
+	string Name=2;
+}

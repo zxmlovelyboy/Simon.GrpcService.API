@@ -1,0 +1,70 @@
+syntax="proto3";
+import "google/protobuf/empty.proto";
+import "google/protobuf/Timestamp.proto";
+//import "date.proto";
+
+package Acadsoc.GrpcService.Server;
+
+option csharp_namespace = "Simon.GrpcService.API";
+
+
+service PersonService {
+	rpc GetPersonInfoById (RequestUserId) returns (ResponseUserInfo);
+	rpc GetAll (google.protobuf.Empty) returns (ReponsePersonList);
+}
+
+message RequestUserId{
+	int32 Id = 1;
+}
+
+message ResponseUserInfo{
+	Person person = 1;
+}
+
+message ReponsePersonList{
+	repeated Person person = 1;
+}
+
+message Person{
+	int32 Id = 1;
+	string name = 2;
+	int32 age = 3;
+	Gender gender = 4;
+	float weight = 5;
+	bool email_verified = 6;
+
+	//允许重复利用
+	repeated string phone = 7;
+
+	double salary = 8;
+	//Date birthday = 9;
+
+	repeated Address myAdd = 9;//多个地址
+	//string foo = 8;//Field name "foo" is reserved.
+	//reserved 12,14,18,20 to 50,100 to max;
+	reserved "foo","bar";
+
+	// message Son{
+	//     string name = 1;
+	//     int32 age = 2;
+	//     string phone = 3;
+	// }
+}
+
+enum Gender {
+	option allow_alias = true;
+	UNKNOW = 0;
+	FEMALE = 1;
+	MALE = 2;
+	WOMAN = 1;
+	MAN = 2;
+}
+
+message Address {
+	string province = 1;
+	string city = 2;
+	string area = 3;
+	string zip_code = 4;
+	string street = 5;
+	string number = 6;
+}

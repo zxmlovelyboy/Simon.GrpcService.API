@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.Gateway\\Simon.GrpcService.Gateway.csproj": {}
+  },
+  "projects": {
+    "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.Gateway\\Simon.GrpcService.Gateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.Gateway\\Simon.GrpcService.Gateway.csproj",
+        "projectName": "Simon.GrpcService.Gateway",
+        "projectPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.Gateway\\Simon.GrpcService.Gateway.csproj",
+        "packagesPath": "C:\\Users\\xmzh03\\.nuget\\packages\\",
+        "outputPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.Gateway\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xmzh03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\xmzh03\\Downloads": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj": {
+                "projectPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.30.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj",
+        "projectName": "Simon.GrpcService.GrpcService",
+        "projectPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj",
+        "packagesPath": "C:\\Users\\xmzh03\\.nuget\\packages\\",
+        "outputPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xmzh03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\xmzh03\\Downloads": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
