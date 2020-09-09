@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message Date {
+    int32 year = 1;
+    int32 month = 2;
+    int32 day = 3;
+}
+
+service DateService{
+    rpc JoinDate (InputDateRequest) returns (ReplayFormatDate);
+}
+
+message InputDateRequest{
+    Date date = 1;
+}
+
+message ReplayFormatDate{
+    Date myDate = 1;
+}

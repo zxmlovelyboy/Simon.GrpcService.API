@@ -1,0 +1,4 @@
+obj\Debug\netcoreapp3.1/Person.cs \
+obj\Debug\netcoreapp3.1/PersonGrpc.cs: C:/Users/xmzh03/.nuget/packages/grpc.tools/2.27.0/build/native/include/google/protobuf/empty.proto\
+ C:/Users/xmzh03/.nuget/packages/grpc.tools/2.27.0/build/native/include/google/protobuf/Timestamp.proto\
+ person.proto

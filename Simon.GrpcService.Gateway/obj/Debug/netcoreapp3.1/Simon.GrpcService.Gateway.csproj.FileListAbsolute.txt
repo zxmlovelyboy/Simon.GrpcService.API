@@ -1,0 +1,16 @@
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\obj\Debug\netcoreapp3.1\Simon.GrpcService.Gateway.csprojAssemblyReference.cache
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\obj\Debug\netcoreapp3.1\Simon.GrpcService.Gateway.AssemblyInfoInputs.cache
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\obj\Debug\netcoreapp3.1\Simon.GrpcService.Gateway.AssemblyInfo.cs
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\obj\Debug\netcoreapp3.1\Simon.GrpcService.Gateway.csproj.CoreCompileInputs.cache
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\bin\Debug\netcoreapp3.1\appsettings.json
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\bin\Debug\netcoreapp3.1\Simon.GrpcService.GrpcService.exe
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\bin\Debug\netcoreapp3.1\Simon.GrpcService.Gateway.deps.json
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\bin\Debug\netcoreapp3.1\Simon.GrpcService.Gateway.dll
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\bin\Debug\netcoreapp3.1\Simon.GrpcService.Gateway.pdb
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\bin\Debug\netcoreapp3.1\Simon.GrpcService.GrpcService.dll
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\bin\Debug\netcoreapp3.1\Simon.GrpcService.GrpcService.pdb
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\obj\Debug\netcoreapp3.1\Simon.GrpcService.Gateway.csproj.CopyComplete
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\obj\Debug\netcoreapp3.1\Simon.GrpcService.Gateway.dll
+E:\GrpcCodes\Simon.GrpcService.API\Simon.GrpcService.Gateway\obj\Debug\netcoreapp3.1\Simon.GrpcService.Gateway.pdb
