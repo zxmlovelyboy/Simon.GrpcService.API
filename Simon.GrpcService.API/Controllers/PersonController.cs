@@ -41,8 +41,11 @@ namespace Acsdsoc.GrpcService.API.Controllers
 
         // POST api/<PersonController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public JsonResult GetPersonInfo()
         {
+            var list = _personInfoService.GetAll(null, null);
+
+            return new JsonResult(list.Result.Person);
         }
 
         // PUT api/<PersonController>/5
