@@ -41,6 +41,7 @@ namespace Acsdsoc.GrpcService.API.Controllers
 
         // POST api/<PersonController>
         [HttpPost]
+        [Route("PersonInfo")]
         public JsonResult GetPersonInfo()
         {
             var list = _personInfoService.GetAll(null, null);
