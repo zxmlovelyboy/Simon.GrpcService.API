@@ -793,16 +793,16 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xmzh03\\.nuget\\packages\\": {}
+    "D:\\ProgramData\\.nuget\\packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj",
+      "projectUniqueName": "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj",
       "projectName": "Simon.GrpcService.GrpcService",
-      "projectPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj",
-      "packagesPath": "C:\\Users\\xmzh03\\.nuget\\packages\\",
-      "outputPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\obj\\",
+      "projectPath": "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj",
+      "packagesPath": "D:\\ProgramData\\.nuget\\packages",
+      "outputPath": "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\xmzh03\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -813,13 +813,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\xmzh03\\Downloads": {},
-        "http://121.15.212.242:8083/nuget": {},
-        "http://packagesource": {},
+        "http://192.168.74.58:8083/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -831,6 +830,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Grpc.AspNetCore": {
             "target": "Package",
@@ -867,7 +867,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

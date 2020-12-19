@@ -120,15 +120,6 @@
           "build/_._": {}
         }
       },
-      "JSON/1.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Json.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Json.dll": {}
-        }
-      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -551,28 +542,6 @@
         "tools/windows_x86/protoc.exe"
       ]
     },
-    "JSON/1.0.1": {
-      "sha512": "n387Xh1oDWolCIVb2oMV1bWkEKBBk5iLkMuaiAQuLUaAZwowyym2s/6b/hFnmS5J3bzINmZ7I2WEbBAZMQd2dg==",
-      "type": "package",
-      "path": "json/1.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "json.1.0.1.nupkg.sha512",
-        "json.nuspec",
-        "lib/net35/Json.Net35.dll",
-        "lib/net35/Json.Net35.pdb",
-        "lib/net40/Json.dll",
-        "lib/net40/Json.pdb",
-        "lib/sl3/Json.Silverlight.dll",
-        "lib/sl3/Json.Silverlight.pdb",
-        "lib/sl4/Json.Silverlight4.dll",
-        "lib/sl4/Json.Silverlight4.pdb",
-        "lib/wp/Json.WindowsPhone.dll",
-        "lib/wp/Json.WindowsPhone.pdb"
-      ]
-    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -971,7 +940,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "JSON >= 1.0.1",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "Newtonsoft.Json >= 12.0.3",
       "Simon.GrpcService.GrpcService >= 1.0.0",
@@ -979,16 +947,16 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xmzh03\\.nuget\\packages\\": {}
+    "D:\\ProgramData\\.nuget\\packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.API\\Simon.GrpcService.API.csproj",
+      "projectUniqueName": "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.API\\Simon.GrpcService.API.csproj",
       "projectName": "Simon.GrpcService.API",
-      "projectPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.API\\Simon.GrpcService.API.csproj",
-      "packagesPath": "C:\\Users\\xmzh03\\.nuget\\packages\\",
-      "outputPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.API\\obj\\",
+      "projectPath": "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.API\\Simon.GrpcService.API.csproj",
+      "packagesPath": "D:\\ProgramData\\.nuget\\packages",
+      "outputPath": "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\xmzh03\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -999,16 +967,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\xmzh03\\Downloads": {},
-        "http://121.15.212.242:8083/nuget": {},
-        "http://packagesource": {},
+        "http://192.168.74.58:8083/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj": {
-              "projectPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj"
+            "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj": {
+              "projectPath": "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj"
             }
           }
         }
@@ -1021,11 +988,8 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
-          "JSON": {
-            "target": "Package",
-            "version": "[1.0.1, )"
-          },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.10.9, )"
@@ -1057,20 +1021,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“JSON 1.0.1”。此包可能与项目不完全兼容。",
-      "libraryId": "JSON",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

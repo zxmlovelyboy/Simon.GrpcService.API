@@ -54,7 +54,6 @@ namespace Simon.GrpcService.API
             {
                 //endpoints.MapGrpcService<PersonInfoService>();
                 //endpoints.MapGrpcService<DemoService>();
-
                 endpoints.MapControllers();
             });
         }
