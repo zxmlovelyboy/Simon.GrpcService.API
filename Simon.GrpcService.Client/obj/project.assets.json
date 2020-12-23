@@ -853,16 +853,16 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xmzh03\\.nuget\\packages\\": {}
+    "D:\\ProgramData\\.nuget\\packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.Client\\Simon.GrpcService.Client.csproj",
+      "projectUniqueName": "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.Client\\Simon.GrpcService.Client.csproj",
       "projectName": "Simon.GrpcService.Client",
-      "projectPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.Client\\Simon.GrpcService.Client.csproj",
-      "packagesPath": "C:\\Users\\xmzh03\\.nuget\\packages\\",
-      "outputPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.Client\\obj\\",
+      "projectPath": "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.Client\\Simon.GrpcService.Client.csproj",
+      "packagesPath": "D:\\ProgramData\\.nuget\\packages",
+      "outputPath": "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\xmzh03\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -873,16 +873,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\xmzh03\\Downloads": {},
-        "http://121.15.212.242:8083/nuget": {},
-        "http://packagesource": {},
+        "http://192.168.74.58:8083/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj": {
-              "projectPath": "E:\\GrpcCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj"
+            "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj": {
+              "projectPath": "E:\\SimonCodes\\Simon.GrpcService.API\\Simon.GrpcService.GrpcService\\Simon.GrpcService.GrpcService.csproj"
             }
           }
         }
@@ -895,6 +894,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Newtonsoft.Json": {
             "target": "Package",
@@ -919,7 +919,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
