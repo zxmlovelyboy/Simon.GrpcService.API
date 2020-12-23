@@ -27,5 +27,14 @@ namespace Simon.GrpcService.API.Controllers
 
             return new JsonResult(person);
         }
+
+        // GET: api/<PersonController>
+        [HttpGet]
+        public JsonResult GetAll()
+        {
+            var list = _personService.GetAll(null, null);
+
+            return new JsonResult(list);
+        }
     }
 }
