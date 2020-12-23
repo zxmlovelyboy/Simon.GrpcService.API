@@ -12,6 +12,10 @@ namespace Acsdsoc.GrpcService.API.Controllers
     {
         private readonly PersonInfoService _personInfoService;
 
+        /// <summary>
+        /// DI
+        /// </summary>
+        /// <param name="personInfoService"></param>
         public PersonController(PersonInfoService personInfoService)
         {
             _personInfoService = personInfoService;
@@ -39,22 +43,27 @@ namespace Acsdsoc.GrpcService.API.Controllers
             return new JsonResult(person);
         }
 
-        // POST api/<PersonController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        [Route("PersonInfo")]
+        public JsonResult GetPersonInfo()
         {
+            var list = _personInfoService.GetAll(null, null);
+
+            return new JsonResult(list.Result.Person);
         }
 
         // PUT api/<PersonController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+            System.Console.WriteLine("put sth");
         }
 
         // DELETE api/<PersonController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+
         }
     }
 }
