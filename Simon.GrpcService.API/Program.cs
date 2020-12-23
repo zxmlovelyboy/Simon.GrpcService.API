@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.Hosting;
 
 namespace Simon.GrpcService.API
@@ -23,4 +22,4 @@ namespace Simon.GrpcService.API
                     webBuilder.UseStartup<Startup>();
                 });
     }
-}
+} 
