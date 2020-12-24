@@ -73,3 +73,4 @@ E:\SimonCodes\Simon.GrpcService.API\Simon.GrpcService.API\obj\Debug\netcoreapp3.
 E:\SimonCodes\Simon.GrpcService.API\Simon.GrpcService.API\obj\Debug\netcoreapp3.1\Simon.GrpcService.API.dll
 E:\SimonCodes\Simon.GrpcService.API\Simon.GrpcService.API\obj\Debug\netcoreapp3.1\Simon.GrpcService.API.pdb
 E:\SimonCodes\Simon.GrpcService.API\Simon.GrpcService.API\obj\Debug\netcoreapp3.1\Simon.GrpcService.API.genruntimeconfig.cache
+E:\SimonCodes\Simon.GrpcService.API\Simon.GrpcService.API\bin\Debug\netcoreapp3.1\Dockerfile
